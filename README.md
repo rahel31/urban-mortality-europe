@@ -40,7 +40,8 @@ The Random Forest explains about 75% of the variation in premature mortality bet
 
 The strongest predictors are socioeconomic and behavioural: obesity, smoking, GDP and education. Two of them, obesity and smoking, were only available at national level, so their effect cannot be fully separated from national context.
 
-![SHAP feature importance, full model](Figures/SHAP_full.png)
+<img src="Figures/SHAP_full.png" width="600" alt="SHAP feature importance, full model">
+
 *Variable importance in the full model (SHAP values). Behavioural and economic factors lead; environmental variables appear lower down.*
 
 The more revealing test was removing those national variables and refitting on the sub-national ones (city and regional). The top predictors then become GDP, doctor density, car dependency and tertiary education. Still socioeconomic, and still not environmental.
